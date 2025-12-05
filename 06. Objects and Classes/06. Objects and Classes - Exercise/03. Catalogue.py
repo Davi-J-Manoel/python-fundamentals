@@ -14,5 +14,3 @@ class Catalogue:
         show_result = "Items in the {0} catalogue:\n" \
                  "{1}".format(self.name, '\n'.join(sorted(self.products)))
         return show_result
-
-
